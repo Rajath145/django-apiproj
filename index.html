@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="card card-body">
+                <h1>MY API DATA</h1><br><br><br>
+                <h1>Trains</h1> &nbsp;
+                <a href="" class="btn btn-primary">Get Data</a><br><br>
+                <h1>Movies</h1> &nbsp; <a href="{% url 'movies' %}" class="btn btn-primary">Get Data</a>
+            </div>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
